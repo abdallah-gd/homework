@@ -75,6 +75,14 @@ vertical-align: middle;
 border: 2px solid rgba(235, 87, 87, 1);
 gap: 10px;
 padding: 15px 30px; 
+margin: 0;
+}
+#menue img{
+  width: 30px;
+  height: 30px;
+}
+#menue{
+  display: none;
 }
 #hero {
   width: 100%;
@@ -418,12 +426,59 @@ footer a{
   border-radius: 10px;
 }
 @media screen and (max-width: 414px) {
+header {
+background: none;
+height: 390px ;
+}  
 nav {
   width: 100 vw;
-  padding: 0;
+  padding: 10px 20px;
 }  
 nav ul{
   display: none;
 }
+nav button{
+  display: none;
+}
+#menue{
+  display: block;
+  border: none;
+  padding-right: 1em;
 
+}
+#pic{
+  display: none;
+}
+#hero-text{
+  width: 100%;
+  padding: 0 20px;
+  margin-top: 5em;
+  text-align: center;
+  position: relative;
+}
+.hh{
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 100%;
+}
+.tt{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+
+}
+#hero-text button{
+  width:  30%;
+  padding:5px 20px ;
+  align-items: center;
+  position: absolute;
+  bottom: -60px;
+  left: 20%;
+}
+#hero{
+  height: 100vh;
+}
+#Rectangle{
+  display: none;
+}
 }
